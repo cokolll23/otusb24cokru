@@ -1,6 +1,6 @@
 <?php
-namespace Models\Lists;
-use Models\AbstractIblockPropertyValuesTable;
+namespace local\app\Models\Lists;
+use local\app\Models\AbstractIblockPropertyValuesTable;
 
 class DoctorsProcsPropertyValuesTable extends AbstractIblockPropertyValuesTable
 {

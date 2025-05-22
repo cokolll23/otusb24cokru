@@ -1,16 +1,15 @@
 <?php
 
-namespace Models\Books;
+namespace local\app\Models\Books;
 
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\ORM\Data\DataManager;
 use Bitrix\Main\ORM\Fields\DateField;
 use Bitrix\Main\ORM\Fields\IntegerField;
+use Bitrix\Main\ORM\Fields\Relations\ManyToMany;
 use Bitrix\Main\ORM\Fields\StringField;
 use Bitrix\Main\ORM\Fields\TextField;
 use Bitrix\Main\ORM\Fields\Validators\LengthValidator;
-use Bitrix\Main\ORM\Fields\Relations\ManyToMany;
-use Models\Books\AuthorTable;
 
 /**
  * Class Table

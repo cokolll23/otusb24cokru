@@ -1,25 +1,23 @@
 <?php
 
-namespace Models\Books;
+namespace local\app\Models\Books;
 
-use Bitrix\Main\Localization\Loc,
-    Bitrix\Main\ORM\Data\DataManager,
-    Bitrix\Main\ORM\Fields\DateField,
-    Bitrix\Main\ORM\Fields\IntegerField,
-    Bitrix\Main\ORM\Fields\StringField,
-    Bitrix\Main\ORM\Fields\TextField,
-    Bitrix\Main\ORM\Fields\Validators\LengthValidator,
-    Bitrix\Main\ORM\Fields\Validator\Base,
-    Bitrix\Main\ORM\Fields\Validators\RegExpValidator,
-    Bitrix\Main\ORM\Fields\Relations\Reference,
-    Bitrix\Main\ORM\Fields\Relations\OneToMany,
-    Bitrix\Main\ORM\Fields\Relations\ManyToMany,
-    Bitrix\Main\Entity\Query\Join;
-
+use Bitrix\Main\Entity\EntityError;
 use Bitrix\Main\Entity\Event;
 use Bitrix\Main\Entity\EventResult;
-use Bitrix\Main\Entity\EntityError;
-
+use Bitrix\Main\Entity\Query\Join;
+use Bitrix\Main\Localization\Loc;
+use Bitrix\Main\ORM\Data\DataManager;
+use Bitrix\Main\ORM\Fields\DateField;
+use Bitrix\Main\ORM\Fields\IntegerField;
+use Bitrix\Main\ORM\Fields\Relations\ManyToMany;
+use Bitrix\Main\ORM\Fields\Relations\OneToMany;
+use Bitrix\Main\ORM\Fields\Relations\Reference;
+use Bitrix\Main\ORM\Fields\StringField;
+use Bitrix\Main\ORM\Fields\TextField;
+use Bitrix\Main\ORM\Fields\Validator\Base;
+use Bitrix\Main\ORM\Fields\Validators\LengthValidator;
+use Bitrix\Main\ORM\Fields\Validators\RegExpValidator;
 
 
 /**

@@ -1,10 +1,9 @@
 <?php
-namespace Models\Lists;
+namespace local\app\Models\Lists;
 
 use Bitrix\Main\Entity\Query\Join;
 use Bitrix\Main\Entity\ReferenceField;
-use Models\AbstractIblockPropertyValuesTable;
-use Models\Lists\DoctorsProcsPropertyValuesTable;
+use local\app\Models\AbstractIblockPropertyValuesTable;
 
 
 class DoctorsPropertyValuesTable extends AbstractIblockPropertyValuesTable
